@@ -1,0 +1,43 @@
+#!/bin/bash
+# Smanioto, Carlos - carlos.smanioto@datapower.com.br
+
+# Power Collector daemon start stop
+
+# Comments to support chkconfig on RedHat Linux
+# chkconfig: 2345 64 36
+# description: Analytic your server
+
+BASE=/opt/dpcollector
+mode=$1
+
+cd $BASE
+
+function stop(){
+        for pidfile in $(ls /tmp/pcol*.pid); do
+                kill -9 $(cat $pidfile)
+        done
+        rm -f /tmp/pcollector.pid
+        for i in $(ps aux |grep pcollector |awk '{ print $2 }'); do
+                kill -9 $i;
+        done
+}
+
+function start(){
+        /opt/dpcollector/dpcollector.py start
+}
+
+
+
+
+case "$mode" in
+  'start')
+	start;
+   ;;
+   'stop')
+	stop;
+    ;;	
+   'restart')
+	stop;
+	start;
+   ;;
+esac

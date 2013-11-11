@@ -1,0 +1,30 @@
+1) MySQL Connector
+Download do mysql-connector no site da Oracle (Install via Python)
+
+2) Daemon Runner
+sudo pip daemon-runner
+
+3) pycontrol (BigIP)
+sudo pip pycontrol
+
+4) NTPLIB
+sudo pip ntlib
+
+5) Pastas
+para Linux:
+/var/log/zabbix -> pyabbix.log 
+/etc/zabbix -> pyabbix.cfg
+
+6) Executar daemon como root
+
+Para Centos:
+python-setuptools.noarch
+
+python 2.7
+http://mythinkpond.wordpress.com/2011/12/28/how-to-upgrade-to-python-2-7-on-centos/
+
+
+GRANTS - MySQL
+create user 'pyabbix'@'localhost' with password('run4all') 
+grant SUPER,REPLICATION CLIENT on *.* to 'pyabbix'@'localhost';
+grant SELECT on mysql.* to 'pyabbix'@'localhost';
