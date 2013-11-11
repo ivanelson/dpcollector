@@ -1,3 +1,4 @@
 http://ix.cs.uoregon.edu/~zhiyiw/style/document/Howtosetupgitwithgooglecode.pdf
 http://linuxprograms.wordpress.com/2012/01/30/git-how-to-recursively-add-the-files-in-a-directory/
 http://blog.gustavohenrique.net/2011/03/comandos-basicos-do-git/
+http://rogerdudler.github.io/git-guide/index.pt_BR.html

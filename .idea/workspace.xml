@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pre-reque/git.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/Collector.py" afterPath="$PROJECT_DIR$/lib/collector/Collector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/Header.py" afterPath="$PROJECT_DIR$/lib/setup/Header.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pre-reque/git.txt" afterPath="$PROJECT_DIR$/pre-reque/git.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dpcollector.iws" />
@@ -27,28 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dpcollector.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dpcollector.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dpcollector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="24" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1980">
+            <state line="11" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="-1.3065326" vertical-offset="945" max-vertical-offset="1980">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQL.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
+      <file leaf-file-name="git.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pre-reque/git.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="0" selection-start="8574" selection-end="8574" vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="7665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_db.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collector/get_db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="945">
+            <state line="3" column="55" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -57,48 +50,12 @@
       <file leaf-file-name="Collector.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collector/Collector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="32" column="38" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="615">
               <folding>
-                <element signature="e#613#882#0" expanded="false" />
-                <element signature="e#916#1370#0" expanded="false" />
-                <element signature="e#1406#2026#0" expanded="false" />
+                <element signature="e#565#569#0" expanded="false" />
+                <element signature="e#922#1376#0" expanded="false" />
+                <element signature="e#1412#2032#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="git.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pre-reque/git.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.07826087" vertical-offset="0" max-vertical-offset="575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheSender.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collector/base/CacheSender.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="0" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.0" vertical-offset="1104" max-vertical-offset="1455">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQL_Tools.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="3465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQL_Interface.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -106,7 +63,18 @@
       <file leaf-file-name="ZabbixSend.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/send/ZabbixSend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="8" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1575">
+            <state line="16" column="6" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
+              <folding>
+                <element signature="e#26#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheSender.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collector/base/CacheSender.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="22" selection-start="2499" selection-end="2513" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
@@ -115,7 +83,7 @@
       <file leaf-file-name="Header.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="480">
+            <state line="10" column="32" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -159,13 +127,13 @@
         <option value="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" />
         <option value="$PROJECT_DIR$/pre-reque/init-start-script" />
         <option value="$PROJECT_DIR$/dpcollector.py" />
-        <option value="$PROJECT_DIR$/lib/setup/Header.py" />
         <option value="$PROJECT_DIR$/lib/setup/send/ZabbixSend.py" />
         <option value="$PROJECT_DIR$/dpcollector.conf" />
         <option value="$PROJECT_DIR$/lib/collector/base/CacheSender.py" />
-        <option value="$PROJECT_DIR$/lib/collector/Collector.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
         <option value="$PROJECT_DIR$/pre-reque/git.txt" />
+        <option value="$PROJECT_DIR$/lib/collector/Collector.py" />
+        <option value="$PROJECT_DIR$/lib/setup/Header.py" />
       </list>
     </option>
   </component>
@@ -301,7 +269,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pre-reque" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="send" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,7 +352,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../git" />
     <property name="FullScreen" value="false" />
@@ -557,18 +597,23 @@
       <created>1383939484086</created>
       <updated>1383939484086</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Power Collector First Release">
+      <created>1384196135229</created>
+      <updated>1384196135229</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24524158" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -578,11 +623,30 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -628,51 +692,9 @@
         <state line="18" column="20" selection-start="393" selection-end="393" vertical-scroll-proportion="0.45918366" vertical-offset="90" max-vertical-offset="735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="0" selection-start="8574" selection-end="8574" vertical-scroll-proportion="0.0" vertical-offset="2209" max-vertical-offset="7560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/get_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0" vertical-offset="537" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dpcollector.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="25" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/send/ZabbixSend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="8" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dpcollector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="24" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="844" max-vertical-offset="1950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/base/CacheSender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.0" vertical-offset="1104" max-vertical-offset="1455">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py">
@@ -689,20 +711,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/Collector.py">
+    <entry file="file://$PROJECT_DIR$/lib/collector/get_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding>
-            <element signature="e#613#882#0" expanded="false" />
-            <element signature="e#916#1370#0" expanded="false" />
-            <element signature="e#1406#2026#0" expanded="false" />
-          </folding>
+        <state line="45" column="0" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.5477387" vertical-offset="318" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="0" selection-start="8574" selection-end="8574" vertical-scroll-proportion="-0.1758794" vertical-offset="2430" max-vertical-offset="7560">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pre-reque/git.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.07826087" vertical-offset="0" max-vertical-offset="575">
+        <state line="3" column="55" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/base/CacheSender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="22" selection-start="2499" selection-end="2513" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/Collector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="38" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="615">
+          <folding>
+            <element signature="e#565#569#0" expanded="false" />
+            <element signature="e#922#1376#0" expanded="false" />
+            <element signature="e#1412#2032#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/send/ZabbixSend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
+          <folding>
+            <element signature="e#26#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpcollector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="-1.3065326" vertical-offset="945" max-vertical-offset="1980">
           <folding />
         </state>
       </provider>
