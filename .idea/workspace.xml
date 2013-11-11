@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" afterPath="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" afterPath="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dpcollector.conf" afterPath="$PROJECT_DIR$/dpcollector.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dpcollector.py" afterPath="$PROJECT_DIR$/dpcollector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" afterPath="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dpcollector.iws" />
@@ -33,7 +29,7 @@
       <file leaf-file-name="dpcollector.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dpcollector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="19" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.4754601" vertical-offset="1315" max-vertical-offset="1980">
+            <state line="99" column="32" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.5214724" vertical-offset="1315" max-vertical-offset="1980">
               <folding>
                 <element signature="e#87#115#0" expanded="true" />
               </folding>
@@ -44,7 +40,7 @@
       <file leaf-file-name="MySQL.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="0" selection-start="10956" selection-end="10956" vertical-scroll-proportion="0.0" vertical-offset="2806" max-vertical-offset="7635">
+            <state line="201" column="0" selection-start="10956" selection-end="10956" vertical-scroll-proportion="0.0" vertical-offset="2806" max-vertical-offset="7650">
               <folding />
             </state>
           </provider>
@@ -82,7 +78,7 @@
       <file leaf-file-name="MySQL_Tools.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="0" selection-start="12847" selection-end="12847" vertical-scroll-proportion="0.0" vertical-offset="3289" max-vertical-offset="3615">
+            <state line="243" column="0" selection-start="13049" selection-end="13049" vertical-scroll-proportion="0.0" vertical-offset="3304" max-vertical-offset="3630">
               <folding>
                 <element signature="e#446#820#1" expanded="false" />
               </folding>
@@ -166,11 +162,11 @@
         <option value="$PROJECT_DIR$/lib/setup/Header.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/CacheSender.py" />
         <option value="$PROJECT_DIR$/pre-reque/git.txt" />
-        <option value="$PROJECT_DIR$/dpcollector.py" />
         <option value="$PROJECT_DIR$/dpcollector.conf" />
         <option value="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" />
+        <option value="$PROJECT_DIR$/dpcollector.py" />
       </list>
     </option>
   </component>
@@ -696,7 +692,11 @@
       <created>1384198893223</created>
       <updated>1384198893223</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="BugFix Innodb information for mysql 5.5 ou &gt;">
+      <created>1384203693245</created>
+      <updated>1384203693245</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -732,7 +732,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Power Collector First Release" />
-    <option name="LAST_COMMIT_MESSAGE" value="Power Collector First Release" />
+    <MESSAGE value="BugFix Innodb information for mysql 5.5 ou &gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="BugFix Innodb information for mysql 5.5 ou &gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -832,7 +833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="0" selection-start="12847" selection-end="12847" vertical-scroll-proportion="0.0" vertical-offset="3289" max-vertical-offset="3615">
+        <state line="243" column="0" selection-start="13049" selection-end="13049" vertical-scroll-proportion="0.0" vertical-offset="3304" max-vertical-offset="3630">
           <folding>
             <element signature="e#446#820#1" expanded="false" />
           </folding>
@@ -855,7 +856,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dpcollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="19" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.4754601" vertical-offset="1315" max-vertical-offset="1980">
+        <state line="99" column="32" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.5214724" vertical-offset="1315" max-vertical-offset="1980">
           <folding>
             <element signature="e#87#115#0" expanded="true" />
           </folding>
