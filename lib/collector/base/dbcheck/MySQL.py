@@ -158,23 +158,26 @@ class MySQLCollector(object):
         ts = str(int(time.time()))
         if bool(self.mysqldb.get_mysql_ping()):
             if priority == CONS_COLLECT_FOR["CONTINUOUS"] or priority == CONS_COLLECT_FOR["BOOTH"]:
-                ''' show slave status '''
-                status = self.mysqldb.get_show_slave_status()
-                self.write_key("db.mysql.slave_lagging", status.seconds_behind_master, ts)
-                self.write_key("db.mysql.slave_io_thread", convert_bool_to_int(status.slave_io_running), ts)
-                self.write_key("db.mysql.slave_sql_thread", convert_bool_to_int(status.slave_sql_running), ts)
-                self.write_key("db.mysql.slave_error_number", status.last_errno, ts)
-                self.write_key("db.mysql.slave_error", str(status.last_error).replace("", " "), ts)
-                self.write_key("db.mysql.slave_master_log_file", str(status.master_log_file), ts)
-                self.write_key("db.mysql.slave_read_master_log_pos", str(status.read_master_log_pos), ts)
-                self.write_key("db.mysql.slave_relay_log_file", str(status.relay_log_file), ts)
-                self.write_key("db.mysql.slave_relay_log_pos", str(status.relay_log_pos), ts)
-                self.write_key("db.mysql.slave_relay_master_log_file", str(status.relay_master_log_file), ts)
-                # Log Lagging
-                master_log_file = long(str(status.master_log_file).split('.')[1])
-                relay_master_log_file = long(str(status.relay_master_log_file).split('.')[1])
-                log_laggin = master_log_file - relay_master_log_file
-                self.write_key("db.mysql.slave_relay_log_lagging", log_laggin, ts)
+
+                try:
+                    status = self.mysqldb.get_show_slave_status()
+                    self.write_key("db.mysql.slave_lagging", status.seconds_behind_master, ts)
+                    self.write_key("db.mysql.slave_io_thread", convert_bool_to_int(status.slave_io_running), ts)
+                    self.write_key("db.mysql.slave_sql_thread", convert_bool_to_int(status.slave_sql_running), ts)
+                    self.write_key("db.mysql.slave_error_number", status.last_errno, ts)
+                    self.write_key("db.mysql.slave_error", str(status.last_error).replace("", " "), ts)
+                    self.write_key("db.mysql.slave_master_log_file", str(status.master_log_file), ts)
+                    self.write_key("db.mysql.slave_read_master_log_pos", str(status.read_master_log_pos), ts)
+                    self.write_key("db.mysql.slave_relay_log_file", str(status.relay_log_file), ts)
+                    self.write_key("db.mysql.slave_relay_log_pos", str(status.relay_log_pos), ts)
+                    self.write_key("db.mysql.slave_relay_master_log_file", str(status.relay_master_log_file), ts)
+                    # Log Lagging
+                    master_log_file = long(str(status.master_log_file).split('.')[1])
+                    relay_master_log_file = long(str(status.relay_master_log_file).split('.')[1])
+                    log_laggin = master_log_file - relay_master_log_file
+                    self.write_key("db.mysql.slave_relay_log_lagging", log_laggin, ts)
+                except:
+                    pass
 
     def collector_master_status(self, priority=1):
         ts = str(int(time.time()))
@@ -485,15 +488,18 @@ class MySQLCollector(object):
                     mysql_time = int(convert_now2unixtime(status.now))
                 except:
                     mysql_time = 0
-                if mysql_time is not None and mysql_time > 0:
-                    ntp_time = get_unixtime_ntp_server(ntp_server)
-                    time_error = ntp_time - (mysql_time + 3)
+                try:
+                    if mysql_time is not None and mysql_time > 0:
+                        ntp_time = get_unixtime_ntp_server(ntp_server)
+                        time_error = ntp_time - (mysql_time + 3)
 
-                    if time_error > int(ntp_grace_time * -1) and time_error < int(
-                                    ntp_grace_time * 1): # Time grace - Delay between get now() and get ntp date
-                        time_error = 0
-                    if time_error is not None:
-                        self.write_key("db.mysql.time_unixtime_ntp_time", time_error, ts)
+                        if time_error > int(ntp_grace_time * -1) and time_error < int(
+                                        ntp_grace_time * 1): # Time grace - Delay between get now() and get ntp date
+                            time_error = 0
+                        if time_error is not None:
+                            self.write_key("db.mysql.time_unixtime_ntp_time", time_error, ts)
+                except:
+                    pass
 
     def collect_all(self, priority):
         self.collect_show_innodb_status(priority)

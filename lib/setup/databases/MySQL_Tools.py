@@ -1,16 +1,25 @@
 import re
 
-i = 0
-
-# Used in re.search(regexp, string)
-# 1.00 or +1.00 or -1.00 or +1 or -1 or 1 
-regex_float = r"[-+]?\d*\.\d+|[-+]?\d+"
-
-regex_date_deadlock = r"^\d+ \d+:\d+:\d+$" # MySQL Log  date format - 130812 13:03:03
 
 # http://www.mysqlperformanceblog.com/2006/07/17/show-innodb-status-walk-through/
 #http://gmond-python-modules.googlecode.com/svn-history/r33/trunk/mysql.py
+# Used in re.search(regexp, string)
+# 1.00 or +1.00 or -1.00 or +1 or -1 or 1 
+
+i = 0
+regex_float = r"[-+]?\d*\.\d+|[-+]?\d+"
+regex_date_deadlock = r"^\d+ \d+:\d+:\d+$" # MySQL Log  date format - 130812 13:03:03
+
 def parse_innodb_status(rs, mysql_version_tuple=(5, 1, 0)):
+    '''
+    -------------------------------------
+    INSERT BUFFER AND ADAPTIVE HASH INDEX
+    -------------------------------------
+    Ibuf: size 16389, free list len 39469, seg size 55859,
+    17078598 inserts, 16666750 merged recs, 3072866 merges
+    Hash table size 63749393, node heap has 130085 buffer(s)
+    25150.49 hash searches/s, 3233.24 non-hash searches/s
+    '''
     result = {}
     #back_ground_collected = False
     #semaphores_collected = False
@@ -46,8 +55,12 @@ def parse_innodb_status(rs, mysql_version_tuple=(5, 1, 0)):
             '''
 
             if "OS WAIT ARRAY INFO" in subline:
-                result['innodb_os_wait_reservation_count'] = re.search(regex_float, subline.split(',')[0]).group()
-                result['innodb_os_wait_signal_count'] = re.search(regex_float, subline.split(',')[1]).group()
+                if mysql_version_tuple < (5, 5, 0):
+                    result['innodb_os_wait_reservation_count'] = re.search(regex_float, subline.split(',')[0]).group()
+                    result['innodb_os_wait_signal_count'] = re.search(regex_float, subline.split(',')[1]).group()
+                else:
+                    result['innodb_os_wait_reservation_count'] = re.search(regex_float, subline.split(':')[1]).group()
+                    # result['innodb_os_wait_signal_count'] = re.search(regex_float, subline.split(',')[1]).group()
 
             if "Mutex spin waits" in subline:
                 result['innodb_mutex_spin_waits'] = re.search(regex_float, subline.split(',')[0]).group()
@@ -55,12 +68,18 @@ def parse_innodb_status(rs, mysql_version_tuple=(5, 1, 0)):
                 result['innodb_mutex_spin_os_waits'] = re.search(regex_float, subline.split(',')[2]).group()
 
             if "RW-shared spins" in subline:
-                result['innodb_rw_shared_spins'] = re.search(regex_float, subline.split(';')[0].split(',')[0]).group()
-                result['innodb_rw_shared_os_waits'] = re.search(regex_float,
-                                                                subline.split(';')[0].split(',')[1]).group()
-                result['innodb_rw_excl_spins'] = re.search(regex_float, subline.split(';')[1].split(',')[0]).group()
-                result['innodb_rw_excl_os_waits'] = re.search(regex_float, subline.split(';')[1].split(',')[1]).group()
-                #continue
+                if mysql_version_tuple < (5, 5, 0):
+                    result['innodb_rw_shared_spins'] = re.search(regex_float,
+                                                                 subline.split(';')[0].split(',')[0]).group()
+                    result['innodb_rw_shared_os_waits'] = re.search(regex_float,
+                                                                    subline.split(';')[0].split(',')[1]).group()
+                    result['innodb_rw_excl_spins'] = re.search(regex_float, subline.split(';')[1].split(',')[0]).group()
+                    result['innodb_rw_excl_os_waits'] = re.search(regex_float,
+                                                                  subline.split(';')[1].split(',')[1]).group()
+                else:
+                    result['innodb_rw_shared_spins'] = re.search(regex_float, subline.split(',')[0]).group()
+                    result['innodb_rw_shared_rounds'] = re.search(regex_float, subline.split(',')[1]).group()
+                    result['innodb_rw_shared_os_waits'] = re.search(regex_float, subline.split(',')[2]).group()
 
             if "Spin rounds per wait" in subline:
                 splited = subline.split(',')

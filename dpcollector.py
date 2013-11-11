@@ -97,7 +97,7 @@ class App():
         #th_invoked.join()    
 
 
-DEV = False
+DEV = True
 
 if not DEV:
     try:
@@ -110,10 +110,10 @@ if not DEV:
         print "%s: [start|stop|restart|reload]" % CONS_PRODUCT_NAME
         sys.exit(1)
 
-if sys.argv[1] == "stop":
-    log.info("-----------------------------------")
-    log.info("%s successfully shutdown      " % CONS_PRODUCT_NAME)
-    log.info("-----------------------------------")
+    if sys.argv[1] == "stop":
+        log.info("-----------------------------------")
+        log.info("%s successfully shutdown      " % CONS_PRODUCT_NAME)
+        log.info("-----------------------------------")
 
 app = App()
 

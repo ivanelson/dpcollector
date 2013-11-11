@@ -256,8 +256,11 @@ class MySQLConnect(object):
             query = 'show engine innodb status'
             cur = self.__conx.cursor()
             cur.execute(query)
-            rs = cur.fetchone()
-            retorno = parse_innodb_status(rs)
+            # MySQL 5.1 < fechone() is good but not work in 5.5 >
+            for row in cur.fetchall():
+                pass
+            cur.close()
+            retorno = parse_innodb_status(row, self.mysql_version_tuple())
             return retorno
         except Exception, e:
             log.debug("Error %s on execute %s" % (e, query))
