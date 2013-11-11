@@ -97,7 +97,7 @@ class App():
         #th_invoked.join()    
 
 
-DEV = True
+DEV = False
 
 if not DEV:
     try:

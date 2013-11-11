@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" afterPath="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" afterPath="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dpcollector.conf" afterPath="$PROJECT_DIR$/dpcollector.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dpcollector.py" afterPath="$PROJECT_DIR$/dpcollector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" afterPath="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/Header.py" afterPath="$PROJECT_DIR$/lib/setup/Header.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dpcollector.iws" />
@@ -30,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dpcollector.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dpcollector.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dpcollector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="19" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.4754601" vertical-offset="1315" max-vertical-offset="1980">
+            <state line="99" column="32" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0" vertical-offset="1315" max-vertical-offset="1980">
               <folding>
                 <element signature="e#87#115#0" expanded="true" />
               </folding>
@@ -44,7 +40,7 @@
       <file leaf-file-name="MySQL.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="0" selection-start="10956" selection-end="10956" vertical-scroll-proportion="0.0" vertical-offset="2806" max-vertical-offset="7635">
+            <state line="201" column="0" selection-start="10956" selection-end="10956" vertical-scroll-proportion="0.0" vertical-offset="2806" max-vertical-offset="7650">
               <folding />
             </state>
           </provider>
@@ -68,21 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZabbixSend.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setup/send/ZabbixSend.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="69" selection-start="427" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="1575">
-              <folding>
-                <element signature="e#26#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MySQL_Tools.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="0" selection-start="12847" selection-end="12847" vertical-scroll-proportion="0.0" vertical-offset="3289" max-vertical-offset="3615">
+            <state line="243" column="0" selection-start="13049" selection-end="13049" vertical-scroll-proportion="0.0" vertical-offset="3304" max-vertical-offset="3630">
               <folding>
                 <element signature="e#446#820#1" expanded="false" />
               </folding>
@@ -103,6 +88,15 @@
         <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="89" column="0" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0" vertical-offset="1182" max-vertical-offset="2490">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="31" selection-start="286" selection-end="286" vertical-scroll-proportion="0.4054054" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -163,14 +157,14 @@
         <option value="$PROJECT_DIR$/pre-reque/init-start-script" />
         <option value="$PROJECT_DIR$/lib/setup/send/ZabbixSend.py" />
         <option value="$PROJECT_DIR$/lib/collector/Collector.py" />
-        <option value="$PROJECT_DIR$/lib/setup/Header.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/CacheSender.py" />
         <option value="$PROJECT_DIR$/pre-reque/git.txt" />
-        <option value="$PROJECT_DIR$/dpcollector.py" />
         <option value="$PROJECT_DIR$/dpcollector.conf" />
         <option value="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" />
+        <option value="$PROJECT_DIR$/dpcollector.py" />
+        <option value="$PROJECT_DIR$/lib/setup/Header.py" />
       </list>
     </option>
   </component>
@@ -696,20 +690,28 @@
       <created>1384198893223</created>
       <updated>1384198893223</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="BugFix Innodb information for mysql 5.5 ou &gt;">
+      <created>1384203693245</created>
+      <updated>1384203693245</updated>
+    </task>
+    <task id="LOCAL-00018" summary="BugFix Innodb information for mysql 5.5 ou &gt;">
+      <created>1384203715154</created>
+      <updated>1384203715154</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.60096157" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -732,7 +734,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Power Collector First Release" />
-    <option name="LAST_COMMIT_MESSAGE" value="Power Collector First Release" />
+    <MESSAGE value="BugFix Innodb information for mysql 5.5 ou &gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="BugFix Innodb information for mysql 5.5 ou &gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -750,13 +753,6 @@
     <entry file="file://$PROJECT_DIR$/lib/collector/get_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.5477387" vertical-offset="318" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
@@ -832,7 +828,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="0" selection-start="12847" selection-end="12847" vertical-scroll-proportion="0.0" vertical-offset="3289" max-vertical-offset="3615">
+        <state line="243" column="0" selection-start="13049" selection-end="13049" vertical-scroll-proportion="0.0" vertical-offset="3304" max-vertical-offset="3630">
           <folding>
             <element signature="e#446#820#1" expanded="false" />
           </folding>
@@ -855,10 +851,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dpcollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="19" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.4754601" vertical-offset="1315" max-vertical-offset="1980">
+        <state line="99" column="32" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0" vertical-offset="1315" max-vertical-offset="1980">
           <folding>
             <element signature="e#87#115#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="286" selection-end="286" vertical-scroll-proportion="0.4054054" vertical-offset="0" max-vertical-offset="480">
+          <folding />
         </state>
       </provider>
     </entry>
