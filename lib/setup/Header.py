@@ -8,7 +8,7 @@ Created on 01/10/2013
 __all__ = ["CONS_ERROR", "CONS_BIGIP_STATUS", "CONS_DOMAIN", "CONS_CONFIG_FILE", "CONS_CACHE_FILE_INVOKED",
            "DEFAULT_LOGGING_FORMAT"]
 
-CONS_DOMAIN = "datapower.corp" + "."
+CONS_DOMAIN = "datapower.com.br" + "."
 CONS_PRODUCT_NAME = "Data Power Collector"
 CONS_COLLECT_FOR = {"INVOKED": 1, "CONTINUOUS": 2, "BOOTH": 3}
 CONS_RAM_SERVER = 137438953472 # 128GB RAM - Used when collector not get physical ram ou error
