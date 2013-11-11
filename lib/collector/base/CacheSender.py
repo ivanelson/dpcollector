@@ -61,7 +61,6 @@ class CacheSender(object):
                     log.debug("Sending  %s" % (self.filename))
                     log.debug("Zabbix Server command: %s" % cmd_send)
                     log.debug("File %s -  sended by zabbix_sender %s: " % (str(self.filename), str(stdout)))
-                return True
             except (IOError, Exception), e:
                 log.debug("Error on zabbix_send - command " + cmd_send + " error: " + str(e))
             self.clearfile()
@@ -79,7 +78,13 @@ class CacheSender(object):
             try:
                 data_file = open(self.filename, "r")
                 for row in data_file:
-                    z.add_data(row.strip())
+                    # localhost mysql.show_status.created_tmp_tables 1383845532 1
+                    # host, key, value, evt_time=None
+                    host = row.split(' ')[0].strip()
+                    key = row.split(' ')[1].strip()
+                    evt_time = row.split(' ')[2].strip()
+                    value = row.split(' ')[3].strip()
+                    z.add_data(host, key, value, evt_time)
                 data_file.close()
                 z.send(z.build_all())
                 self.clearfile()
