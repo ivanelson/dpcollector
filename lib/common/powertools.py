@@ -12,8 +12,10 @@ import struct
 import datetime
 import time
 
-from lib.setup.Header import CONS_NTP_SERVER
 import ntplib
+
+from lib.setup.Header import CONS_NTP_SERVER
+
 
 
 
@@ -185,7 +187,7 @@ def kbytes2bytes(kbyte):
     byte = 1024 #Bytes
     size = long(kbyte) * long(byte)
     if size > 0:
-        return round(size, 2)
+        return long(round(size, 2))
     else:
         return 0
 
@@ -270,3 +272,60 @@ def ip2long(ip):
 
 def long2ip(ip_long):
     return socket.inet_ntoa(struct.pack('!L', long(ip_long))).strip()
+
+
+def fixfloat(f):
+    '''
+    Thanks Zachary Weinberg - owlfolio.org - Author of this Function
+    '''
+
+    ftod_r = re.compile(br'^(-?)([0-9]*)(?:\.([0-9]*))?(?:[eE]([+-][0-9]+))?$')
+
+    """Print a floating-point number in the format expected by PDF:
+    as short as possible, no exponential notation."""
+
+    s = bytes(str(f))
+    m = ftod_r.match(s)
+    if not m:
+        raise RuntimeError("unexpected floating point number format: {!a}".format(s))
+    sign = m.group(1)
+    intpart = m.group(2)
+    fractpart = m.group(3)
+    exponent = m.group(4)
+
+    if ((intpart is None or intpart == b'') and
+            (fractpart is None or fractpart == b'')):
+        raise RuntimeError("unexpected floating point number format: {!a}".format(s))
+
+    # strip leading and trailing zeros
+    if intpart is None:
+        intpart = b''
+    else:
+        intpart = intpart.lstrip(b'0')
+    if fractpart is None:
+        fractpart = b''
+    else:
+        fractpart = fractpart.rstrip(b'0')
+
+    if intpart == b'' and fractpart == b'':
+        # zero or negative zero; negative zero is not useful in PDF
+        # we can ignore the exponent in this case
+        return b'0'
+
+    # convert exponent to a decimal point shift
+    elif exponent is not None:
+        exponent = int(exponent)
+        exponent += len(intpart)
+        digits = intpart + fractpart
+        if exponent <= 0:
+            return sign + b'.' + b'0' * (-exponent) + digits
+        elif exponent >= len(digits):
+            return sign + digits + b'0' * (exponent - len(digits))
+        else:
+            return sign + digits[:exponent] + b'.' + digits[exponent:]
+
+    # no exponent, just reassemble the number
+    elif fractpart == b'':
+        return sign + intpart # no need for trailing dot
+    else:
+        return sign + intpart + b'.' + fractpart

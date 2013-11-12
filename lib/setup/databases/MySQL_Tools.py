@@ -2,13 +2,14 @@ import re
 
 
 # http://www.mysqlperformanceblog.com/2006/07/17/show-innodb-status-walk-through/
-#http://gmond-python-modules.googlecode.com/svn-history/r33/trunk/mysql.py
+# http://gmond-python-modules.googlecode.com/svn-history/r33/trunk/mysql.py
 # Used in re.search(regexp, string)
 # 1.00 or +1.00 or -1.00 or +1 or -1 or 1 
 
 i = 0
 regex_float = r"[-+]?\d*\.\d+|[-+]?\d+"
 regex_date_deadlock = r"^\d+ \d+:\d+:\d+$" # MySQL Log  date format - 130812 13:03:03
+
 
 def parse_innodb_status(rs, mysql_version_tuple=(5, 1, 0)):
     '''

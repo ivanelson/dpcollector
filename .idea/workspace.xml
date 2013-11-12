@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/Header.py" afterPath="$PROJECT_DIR$/lib/setup/Header.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" afterPath="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py" afterPath="$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" afterPath="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/powertools.py" afterPath="$PROJECT_DIR$/lib/common/powertools.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dpcollector.iws" />
@@ -26,13 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dpcollector.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dpcollector.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dpcollector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="32" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0" vertical-offset="1315" max-vertical-offset="1980">
-              <folding>
-                <element signature="e#87#115#0" expanded="true" />
-              </folding>
+            <state line="99" column="11" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.7788945" vertical-offset="990" max-vertical-offset="1950">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,7 +41,7 @@
       <file leaf-file-name="MySQL.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="0" selection-start="10956" selection-end="10956" vertical-scroll-proportion="0.0" vertical-offset="2806" max-vertical-offset="7650">
+            <state line="10" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="-2.9411764" vertical-offset="50" max-vertical-offset="7875">
               <folding />
             </state>
           </provider>
@@ -49,28 +50,8 @@
       <file leaf-file-name="powertools.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/common/powertools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="0" selection-start="5214" selection-end="5214" vertical-scroll-proportion="0.0" vertical-offset="3117" max-vertical-offset="4020">
+            <state line="289" column="62" selection-start="6958" selection-end="6958" vertical-scroll-proportion="0.0" vertical-offset="3723" max-vertical-offset="4905">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="git.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pre-reque/git.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="55" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQL_Tools.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="243" column="0" selection-start="13049" selection-end="13049" vertical-scroll-proportion="0.0" vertical-offset="3304" max-vertical-offset="3630">
-              <folding>
-                <element signature="e#446#820#1" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +59,7 @@
       <file leaf-file-name="CacheSender.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/CacheSender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="51" selection-start="2976" selection-end="2976" vertical-scroll-proportion="0.0" vertical-offset="898" max-vertical-offset="1425">
+            <state line="83" column="51" selection-start="2976" selection-end="2976" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1425">
               <folding />
             </state>
           </provider>
@@ -87,16 +68,18 @@
       <file leaf-file-name="MySQL_Interface.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="0" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0" vertical-offset="1182" max-vertical-offset="2490">
-              <folding />
+            <state line="146" column="61" selection-start="4375" selection-end="4375" vertical-scroll-proportion="-64.411766" vertical-offset="0" max-vertical-offset="2535">
+              <folding>
+                <element signature="e#51#95#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Header.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="233" selection-end="233" vertical-scroll-proportion="0.36809817" vertical-offset="0" max-vertical-offset="480">
+            <state line="8" column="16" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -105,16 +88,7 @@
       <file leaf-file-name="mysql_conn.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/databases/mysql_conn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="0" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0" vertical-offset="3736" max-vertical-offset="4200">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dpcollector.conf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dpcollector.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="510">
+            <state line="259" column="0" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0" vertical-offset="3730" max-vertical-offset="4200">
               <folding />
             </state>
           </provider>
@@ -149,8 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pcollector.conf" />
-        <option value="$PROJECT_DIR$/lib/setup/Configuration_File.py" />
         <option value="$PROJECT_DIR$/lib/setup/send/zabbix.py" />
         <option value="$PROJECT_DIR$/pre-reque/install.sh" />
         <option value="$PROJECT_DIR$/install.sh" />
@@ -160,11 +132,13 @@
         <option value="$PROJECT_DIR$/lib/collector/base/CacheSender.py" />
         <option value="$PROJECT_DIR$/pre-reque/git.txt" />
         <option value="$PROJECT_DIR$/dpcollector.conf" />
+        <option value="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" />
+        <option value="$PROJECT_DIR$/lib/setup/Header.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
-        <option value="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" />
+        <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py" />
+        <option value="$PROJECT_DIR$/lib/common/powertools.py" />
         <option value="$PROJECT_DIR$/dpcollector.py" />
-        <option value="$PROJECT_DIR$/lib/setup/Header.py" />
       </list>
     </option>
   </component>
@@ -184,7 +158,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -199,6 +173,142 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbcheck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -272,146 +382,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="setup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="setup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="databases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dpcollector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbcheck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,15 +400,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../git" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="112" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1021" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1021" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1021" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="112" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="106" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -710,20 +680,24 @@
       <created>1384204144913</created>
       <updated>1384204144913</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="BugFix Innodb information for mysql 5.5 ou &gt;">
+      <created>1384204211159</created>
+      <updated>1384204211161</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.60096157" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -731,7 +705,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -753,15 +727,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="133" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="143" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pre-reque/init-start-script">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="393" selection-end="393" vertical-scroll-proportion="0.45918366" vertical-offset="90" max-vertical-offset="735" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collector/get_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.5477387" vertical-offset="318" max-vertical-offset="915">
@@ -782,74 +768,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup/send/ZabbixSend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="69" selection-start="427" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="1575">
-          <folding>
-            <element signature="e#26#39#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="22" column="69" selection-start="427" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="1575" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre-reque/git.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="55" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dpcolletor.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="326">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="326" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common/powertools.py">
+    <entry file="file://$PROJECT_DIR$/dpcollector.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="0" selection-start="5214" selection-end="5214" vertical-scroll-proportion="0.0" vertical-offset="3117" max-vertical-offset="4020">
-          <folding />
-        </state>
+        <state line="18" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py">
+    <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0" vertical-offset="1182" max-vertical-offset="2490">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="0" selection-start="10956" selection-end="10956" vertical-scroll-proportion="0.0" vertical-offset="2806" max-vertical-offset="7635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/databases/mysql_conn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="0" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0" vertical-offset="3736" max-vertical-offset="4200">
+        <state line="8" column="16" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="0" selection-start="13049" selection-end="13049" vertical-scroll-proportion="0.0" vertical-offset="3304" max-vertical-offset="3630">
-          <folding>
-            <element signature="e#446#820#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dpcollector.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="510">
+        <state line="4" column="2" selection-start="96" selection-end="96" vertical-scroll-proportion="0.104347825" vertical-offset="0" max-vertical-offset="3750">
           <folding />
         </state>
       </provider>
@@ -861,18 +807,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dpcollector.py">
+    <entry file="file://$PROJECT_DIR$/pre-reque/git.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="32" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0" vertical-offset="1315" max-vertical-offset="1980">
+        <state line="3" column="55" selection-start="299" selection-end="299" vertical-scroll-proportion="0.07826087" vertical-offset="0" max-vertical-offset="575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/databases/mysql_conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="259" column="0" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0" vertical-offset="3736" max-vertical-offset="4200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="-2.9411764" vertical-offset="50" max-vertical-offset="7875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2128" column="11" selection-start="73489" selection-end="73489" vertical-scroll-proportion="0.0" vertical-offset="31767" max-vertical-offset="76485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/powertools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="289" column="62" selection-start="6958" selection-end="6958" vertical-scroll-proportion="0.0" vertical-offset="3723" max-vertical-offset="4905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="61" selection-start="4375" selection-end="4375" vertical-scroll-proportion="-64.411766" vertical-offset="0" max-vertical-offset="2535">
           <folding>
-            <element signature="e#87#115#0" expanded="true" />
+            <element signature="e#51#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
+    <entry file="file://$PROJECT_DIR$/dpcollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="233" selection-end="233" vertical-scroll-proportion="0.36809817" vertical-offset="0" max-vertical-offset="480">
+        <state line="99" column="11" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.7788945" vertical-offset="990" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>

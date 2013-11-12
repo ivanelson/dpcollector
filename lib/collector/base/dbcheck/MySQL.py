@@ -1,7 +1,7 @@
 '''
 Created on 10/10/2013
 
-@author: root
+@author: csmanioto
 '''
 
 import time
@@ -115,16 +115,24 @@ class MySQLCollector(object):
 
 
     def collect_size_status(self, priority=1):
+        '''
+        mysql_version = self.mysqldb.get_mysql_version()
+        priority_select = None
+
+        if mysql_version < (5,5,0):
+            priority_select = CONS_COLLECT_FOR["INVOKED"]
+        else:
+            priority_select = CONS_COLLECT_FOR["CONTINUOUS"]
+        '''
         ts = str(int(time.time()))
         get_os = MetaOS()
         if bool(self.mysqldb.get_mysql_ping()):
-            ''' Others Status '''
-
-            ''' MySQL 5.1.x is very very slower to get SELECT sum(.... from information_schema.tables '''
+            # Others Status
+            # MySQL 5.1.x is very very slower to get SELECT sum(.... from information_schema.tables
             '''
             mysql_version = self.mysqldb.get_mysql_version()
             priority_select = None
-            
+
             if mysql_version < (5,5,0):
                 priority_select = CONS_COLLECT_FOR["INVOKED"]
             else:

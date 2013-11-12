@@ -6,7 +6,7 @@ Created on 01/10/2013
 
 from lib.setup.databases.mysql_conn import *
 from lib.collector.base.oscheck.OS import *
-from lib.common.powertools import convert_dict_to_object, convert_bool_to_int, kbytes2bytes, dict_key2lower
+from lib.common.powertools import convert_dict_to_object, convert_bool_to_int, kbytes2bytes, dict_key2lower, fixfloat
 from lib.setup.Header import CONS_RAM_SERVER
 
 
@@ -119,15 +119,15 @@ class MySQL_Interface():
         mysql_usage = self.__my_conn.mysql_memory_usage()
         meminfo = os_get.get_mem_info()
         try:
-            ram = kbytes2bytes(meminfo.memtotal) # bytes
+            ram = long(kbytes2bytes(meminfo.memtotal)) # bytes
             if ram < mysql_usage:
                 ram = CONS_RAM_SERVER # 128 GB Ram
         except:
             ram = CONS_RAM_SERVER # 128 GB Ram
 
-        my_dic['mysql_usage'] = mysql_usage #bytes
-        my_dic['usage_ram_free_size'] = round(ram - mysql_usage, 2)
-        my_dic['usagem_ram_percent'] = round(mysql_usage * 100 / ram, 2)
+        my_dic['mysql_usage'] = fixfloat(round(mysql_usage, 2))  #bytes
+        my_dic['usage_ram_free_size'] = fixfloat(round(ram - mysql_usage, 2))
+        my_dic['usagem_ram_percent'] = fixfloat(round(mysql_usage * 100 / ram, 2))
         return convert_dict_to_object(dict_key2lower(my_dic))
 
         #return status
