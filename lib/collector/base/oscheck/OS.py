@@ -10,7 +10,7 @@ from lib.collector.base.oscheck.MetaOS import MetaPosix
 from lib.setup.Load import log, host_name, ntp_server
 from lib.setup.Header import CONS_COLLECT_FOR
 from lib.collector.base.WriteCache import WriteCache
-from lib.common.powertools import get_unixtime_ntp_server, convert_now2unixtime
+from lib.common.powertools import get_unixtime_ntp_server, convert_now2unixtime, kbytes2bytes, fixfloat
 
 
 if _platform == "darwin":
@@ -58,14 +58,16 @@ class OS(MetaOS):
         ts = str(int(time.time()))
         if priority == CONS_COLLECT_FOR["CONTINUOUS"] or priority == CONS_COLLECT_FOR["BOOTH"]:
             meminfo = self.get_mem_info()
-            self.write_key("os.mem_info.physical_total", (meminfo.memtotal), ts)
-            self.write_key("os.mem_info.physical_usage", (long(meminfo.memtotal) - long(meminfo.memfree)), ts)
-            self.write_key("os.mem_info.physical_free", (meminfo.memfree), ts)
-            self.write_key("os.mem_info.vm_cached", (meminfo.cached), ts)
-            self.write_key("os.mem_info.vm_buffers", (meminfo.buffers), ts)
-            self.write_key("os.mem_info.vm_swap_total", (meminfo.swaptotal), ts)
-            self.write_key("os.mem_info.vm_swap_free", (meminfo.swapfree), ts)
-            self.write_key("os.mem_info.vm_swap_usage", (long(meminfo.swaptotal) - long(meminfo.swapfree)), ts)
+            self.write_key("os.mem_info.physical_total", fixfloat(kbytes2bytes(meminfo.memtotal), ts))
+            self.write_key("os.mem_info.physical_usage",
+                           fixfloat(kbytes2bytes(long(meminfo.memtotal) - long(meminfo.memfree))), ts)
+            self.write_key("os.mem_info.physical_free", fixfloat(kbytes2bytes(meminfo.memfree)), ts)
+            self.write_key("os.mem_info.vm_cached", fixfloat(kbytes2bytes(meminfo.cached)), ts)
+            self.write_key("os.mem_info.vm_buffers", fixfloat(kbytes2bytes(meminfo.buffers)), ts)
+            self.write_key("os.mem_info.vm_swap_total", fixfloat(kbytes2bytes(meminfo.swaptotal)), ts)
+            self.write_key("os.mem_info.vm_swap_free", fixfloat(kbytes2bytes(meminfo.swapfree)), ts)
+            self.write_key("os.mem_info.vm_swap_usage",
+                           fixfloat(kbytes2bytes(long(meminfo.swaptotal) - long(meminfo.swapfree))), ts)
 
     def collect_load_info(self, priority=1):
         ts = str(int(time.time()))

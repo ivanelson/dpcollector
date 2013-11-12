@@ -72,7 +72,7 @@ class Linux():
             for line in mem:
                 key = line.strip().split()[0].split(':')[0]
                 value = line.strip().split()[1]
-                status[key.lower()] = kbytes2bytes(long(value))
+                status[key.lower()] = (long(value))
         return convert_dict_to_object(status)
 
 
