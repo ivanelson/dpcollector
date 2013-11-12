@@ -27,7 +27,7 @@ class Collector(object):
         send = CacheSender(filename)
         try:
             if 'zabbix' in have_section:
-                send.toZabbixNative()
+                send.toZabbix()
             if 'nagios' in have_section:
                 pass
             if 'json' in have_section:

@@ -227,7 +227,7 @@ class Linux():
             if "model name" in line:
                 line = re.sub(".*model name.*:", "", line, 1)
         line += " with %s core(s) " % processor
-        return line.replace("/n", "")
+        return line.replace("\n", "")
 
 
     ''' GET CPU % IN PYTON '''
