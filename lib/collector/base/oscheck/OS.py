@@ -58,7 +58,7 @@ class OS(MetaOS):
         ts = str(int(time.time()))
         if priority == CONS_COLLECT_FOR["CONTINUOUS"] or priority == CONS_COLLECT_FOR["BOOTH"]:
             meminfo = self.get_mem_info()
-            self.write_key("os.mem_info.physical_total", fixfloat(kbytes2bytes(meminfo.memtotal), ts))
+            self.write_key("os.mem_info.physical_total", fixfloat(kbytes2bytes(meminfo.memtotal)), ts)
             self.write_key("os.mem_info.physical_usage",
                            fixfloat(kbytes2bytes(long(meminfo.memtotal) - long(meminfo.memfree))), ts)
             self.write_key("os.mem_info.physical_free", fixfloat(kbytes2bytes(meminfo.memfree)), ts)
