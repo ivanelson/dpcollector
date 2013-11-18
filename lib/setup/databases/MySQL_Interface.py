@@ -127,7 +127,7 @@ class MySQL_Interface():
 
         my_dic['mysql_usage'] = fixfloat(round(mysql_usage, 2))  #bytes
         my_dic['usage_ram_free_size'] = fixfloat(round(ram - mysql_usage, 2))
-        my_dic['usagem_ram_percent'] = fixfloat(round(mysql_usage * 100 / ram, 2))
+        my_dic['usagem_ram_percent'] = round(mysql_usage * 100 / ram, 2)
         return convert_dict_to_object(dict_key2lower(my_dic))
 
         #return status

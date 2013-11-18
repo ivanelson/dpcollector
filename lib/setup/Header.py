@@ -20,6 +20,7 @@ CONS_CONFIG_FILE = 'dpcollector.conf'
 #DEFAULT_LOGGING_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 DEFAULT_LOGGING_FORMAT = '%(asctime)s - pid: %(process)s - %(name)s - %(levelname)s - %(message)s'
 MYSQL_CONNECTION_TIMEOUT = 90
+PGSQL_CONNECTION_TIMEOUT = 90
 CONS_NTP_SERVER = 'pool.ntp.org'
 CONS_NTP_GRACE_TIME = 03
 CONS_CLEAR_FILE_AFTER_TRAP = True

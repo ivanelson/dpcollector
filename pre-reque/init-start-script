@@ -13,11 +13,11 @@ mode=$1
 cd $BASE
 
 function stop(){
-        for pidfile in $(ls /tmp/pcol*.pid); do
+        for pidfile in $(ls /tmp/dpcol*.pid); do
                 kill -9 $(cat $pidfile)
         done
         rm -f /tmp/pcollector.pid
-        for i in $(ps aux |grep pcollector |awk '{ print $2 }'); do
+        for i in $(ps aux |grep dpcollector |awk '{ print $2 }'); do
                 kill -9 $i;
         done
 }
