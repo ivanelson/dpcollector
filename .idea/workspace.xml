@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/setup/databases/PGSQL_Tools.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/Header.py" afterPath="$PROJECT_DIR$/lib/setup/Header.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py" afterPath="$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dpcollector.py" afterPath="$PROJECT_DIR$/dpcollector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pre-reque/init-start-script" afterPath="$PROJECT_DIR$/pre-reque/init-start-script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py" afterPath="$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dpcollector.iws" />
@@ -52,9 +47,9 @@
       <file leaf-file-name="postgresql_conn.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.54626334" vertical-offset="653" max-vertical-offset="1230">
+            <state line="174" column="0" selection-start="6162" selection-end="6162" vertical-scroll-proportion="0.79130435" vertical-offset="2155" max-vertical-offset="2730">
               <folding>
-                <element signature="e#2#17#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,7 +58,7 @@
       <file leaf-file-name="PGSQL_Tools.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/databases/PGSQL_Tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="30" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="3" column="21" selection-start="31" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -81,7 +76,7 @@
       <file leaf-file-name="mysql_conn.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/setup/databases/mysql_conn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="63" selection-start="104" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4245">
+            <state line="7" column="63" selection-start="104" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="4245">
               <folding />
             </state>
           </provider>
@@ -682,13 +677,18 @@
       <created>1384276674874</created>
       <updated>1384276674874</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="BugFIx in MySQL Tuning information">
+      <created>1384800124512</created>
+      <updated>1384800124512</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="7" width="1345" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -703,7 +703,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34053156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -816,16 +815,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dpcollector.py">
+    <entry file="file://$PROJECT_DIR$/lib/common/powertools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="8" selection-start="2438" selection-end="2438" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="1950">
+        <state line="224" column="4" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.0" vertical-offset="3237" max-vertical-offset="5040">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common/powertools.py">
+    <entry file="file://$PROJECT_DIR$/lib/setup/databases/PGSQL_Tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="4" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.0" vertical-offset="3237" max-vertical-offset="5040">
+        <state line="3" column="21" selection-start="31" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
@@ -844,18 +843,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/databases/PGSQL_Tools.py">
+    <entry file="file://$PROJECT_DIR$/dpcollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="30" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="102" column="8" selection-start="2438" selection-end="2438" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.54626334" vertical-offset="653" max-vertical-offset="1230">
+        <state line="174" column="0" selection-start="6162" selection-end="6162" vertical-scroll-proportion="0.79130435" vertical-offset="2155" max-vertical-offset="2730">
           <folding>
-            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
