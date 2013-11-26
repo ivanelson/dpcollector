@@ -73,9 +73,10 @@ class OS(MetaOS):
         ts = str(int(time.time()))
 
         if priority == CONS_COLLECT_FOR["CONTINUOUS"] or priority == CONS_COLLECT_FOR["BOOTH"]:
-            self.write_key("os.loadavg.one", round(self.get_os_loadvg()[0], 2), ts)
-            self.write_key("os.loadavg.five", round(self.get_os_loadvg()[1], 2), ts)
-            self.write_key("os.loadavg.fifteen", round(self.get_os_loadvg()[2], 2), ts)
+            av1, av2, av3 = self.get_os_loadvg()
+            self.write_key("os.loadavg.one", round(av1, 2), ts)
+            self.write_key("os.loadavg.five", round(av2, 2), ts)
+            self.write_key("os.loadavg.fifteen", round(av3, 2), ts)
             self.write_key("os.cpu_usage", self.get_total_cpu_usage(), ts)
 
 

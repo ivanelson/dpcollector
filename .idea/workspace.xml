@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py" afterPath="$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/collector/base/get_collector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" afterPath="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/oscheck/OS.py" afterPath="$PROJECT_DIR$/lib/collector/base/oscheck/OS.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dpcollector.iws" />
@@ -26,57 +28,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dpcollector.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dpcollector.py">
+      <file leaf-file-name="Collector.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collector/Collector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="8" selection-start="2438" selection-end="2438" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="1950">
+            <state line="40" column="19" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="powertools.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/common/powertools.py">
+      <file leaf-file-name="get_os.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collector/get_os.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="4" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.0" vertical-offset="3402" max-vertical-offset="4890">
+            <state line="29" column="23" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postgresql_conn.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py">
+      <file leaf-file-name="get_collector.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collector/base/get_collector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="0" selection-start="6162" selection-end="6162" vertical-scroll-proportion="0.79130435" vertical-offset="2155" max-vertical-offset="2730">
+            <state line="22" column="19" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetaOS.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="21" selection-start="245" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#56#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PGSQL_Tools.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setup/databases/PGSQL_Tools.py">
+      <file leaf-file-name="Linux.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="31" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="195">
-              <folding />
+            <state line="308" column="10" selection-start="10624" selection-end="10624" vertical-scroll-proportion="-7.7352943" vertical-offset="4357" max-vertical-offset="4920">
+              <folding>
+                <element signature="e#50#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQL_Tools.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
+      <file leaf-file-name="OS.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/OS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="29" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="3765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql_conn.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setup/databases/mysql_conn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="63" selection-start="104" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="4245">
+            <state line="78" column="58" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.20100503" vertical-offset="945" max-vertical-offset="2145">
               <folding />
             </state>
           </provider>
@@ -111,15 +115,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pre-reque/git.txt" />
-        <option value="$PROJECT_DIR$/dpcollector.conf" />
         <option value="$PROJECT_DIR$/lib/setup/databases/mysql_conn.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
         <option value="$PROJECT_DIR$/lib/common/powertools.py" />
         <option value="$PROJECT_DIR$/lib/collector/Collector.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py" />
         <option value="$PROJECT_DIR$/lib/collector/get_net.py" />
-        <option value="$PROJECT_DIR$/lib/collector/base/oscheck/OS.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py" />
         <option value="$PROJECT_DIR$/dpcollector.py" />
         <option value="$PROJECT_DIR$/pre-reque/init-start-script" />
@@ -127,14 +128,16 @@
         <option value="$PROJECT_DIR$/lib/setup/Header.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/PGSQL_Tools.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py" />
+        <option value="$PROJECT_DIR$/lib/collector/base/get_collector.py" />
+        <option value="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" />
+        <option value="$PROJECT_DIR$/lib/collector/base/oscheck/OS.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="7" />
-    <option name="width" value="1345" />
-    <option name="height" value="723" />
+    <option name="x" value="-3" />
+    <option name="width" value="1372" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -162,79 +165,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dpcollector">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dpcollector">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lib">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dpcollector">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dpcollector">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="scopes">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dpcollector">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,6 +287,127 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dpcollector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oscheck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dpcollector">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dpcollector">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dpcollector">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dpcollector">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="scopes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dpcollector">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -397,6 +448,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/collector/base" />
       <recent name="$PROJECT_DIR$/pre-reque" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -681,19 +733,22 @@
       <created>1384800124512</created>
       <updated>1384800124512</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="PostgreSQL Support">
+      <created>1384807428611</created>
+      <updated>1384807428611</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="7" width="1345" height="723" extended-state="0" />
+    <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2501867" sideWeight="0.6594684" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6594684" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -703,6 +758,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34053156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -719,7 +775,8 @@
     <MESSAGE value="Power Collector First Release" />
     <MESSAGE value="BugFix Innodb information for mysql 5.5 ou &gt;" />
     <MESSAGE value="BugFIx in MySQL Tuning information" />
-    <option name="LAST_COMMIT_MESSAGE" value="BugFIx in MySQL Tuning information" />
+    <MESSAGE value="PostgreSQL Support" />
+    <option name="LAST_COMMIT_MESSAGE" value="PostgreSQL Support" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -746,116 +803,111 @@
           <line>127</line>
           <option name="timeStamp" value="175" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/collector/base/oscheck/OS.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="176" />
+      <option name="time" value="177" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/MacOS.py">
+    <entry file="file://$PROJECT_DIR$/pre-reque/init-start-script">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="27" selection-start="2311" selection-end="2311" vertical-scroll-proportion="3.0810812" vertical-offset="0" max-vertical-offset="1470" />
+        <state line="19" column="33" selection-start="440" selection-end="440" vertical-scroll-proportion="0.43399638" vertical-offset="45" max-vertical-offset="735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/get_os.py">
+    <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="22" selection-start="859" selection-end="859" vertical-scroll-proportion="1.0714285" vertical-offset="0" max-vertical-offset="525" />
+        <state line="22" column="29" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.57391304" vertical-offset="0" max-vertical-offset="575" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py">
+    <entry file="file://$PROJECT_DIR$/lib/common/powertools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="38" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.5642458" vertical-offset="788" max-vertical-offset="4800" />
+        <state line="224" column="4" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.0" vertical-offset="3237" max-vertical-offset="5040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/databases/PGSQL_Tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="31" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/databases/mysql_conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="63" selection-start="104" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="29" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="3765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpcollector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="8" selection-start="2438" selection-end="2438" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="1950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="0" selection-start="6172" selection-end="6172" vertical-scroll-proportion="0.79130435" vertical-offset="2185" max-vertical-offset="2760" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collector/get_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/base/dbcheck/MySQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="112" selection-start="9027" selection-end="9027" vertical-scroll-proportion="0.0" vertical-offset="2458" max-vertical-offset="7875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre-reque/init-start-script">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="440" selection-end="440" vertical-scroll-proportion="0.43399638" vertical-offset="45" max-vertical-offset="735">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="49" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.28390595" vertical-offset="908" max-vertical-offset="2490">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/OS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="97" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.25391304" vertical-offset="679" max-vertical-offset="2130">
+        <state line="74" column="49" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="2490">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collector/Collector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="31" selection-start="727" selection-end="727" vertical-scroll-proportion="-0.13043478" vertical-offset="435" max-vertical-offset="1080">
+        <state line="40" column="19" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
+    <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.57391304" vertical-offset="0" max-vertical-offset="575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common/powertools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="4" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.0" vertical-offset="3237" max-vertical-offset="5040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/databases/PGSQL_Tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="31" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/databases/mysql_conn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="63" selection-start="104" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="29" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="3765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dpcollector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="8" selection-start="2438" selection-end="2438" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="1950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="0" selection-start="6162" selection-end="6162" vertical-scroll-proportion="0.79130435" vertical-offset="2155" max-vertical-offset="2730">
+        <state line="15" column="21" selection-start="245" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#56#65#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="308" column="10" selection-start="10624" selection-end="10624" vertical-scroll-proportion="-7.7352943" vertical-offset="4357" max-vertical-offset="4920">
+          <folding>
+            <element signature="e#50#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/base/get_collector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/get_os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="23" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/OS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="58" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.20100503" vertical-offset="945" max-vertical-offset="2145">
+          <folding />
         </state>
       </provider>
     </entry>
