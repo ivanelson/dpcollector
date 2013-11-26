@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py" afterPath="$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" afterPath="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" />
+    <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="migration some data collect to psutil api.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dpcollector.iws" />
@@ -57,7 +55,7 @@
       <file leaf-file-name="MetaOS.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="15" selection-start="640" selection-end="640" vertical-scroll-proportion="0.75376886" vertical-offset="0" max-vertical-offset="597">
+            <state line="33" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.8291457" vertical-offset="0" max-vertical-offset="597">
               <folding>
                 <element signature="e#56#65#0" expanded="true" />
               </folding>
@@ -68,7 +66,7 @@
       <file leaf-file-name="Linux.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="257" column="0" selection-start="8551" selection-end="8551" vertical-scroll-proportion="0.0" vertical-offset="3356" max-vertical-offset="4935">
+            <state line="254" column="0" selection-start="8537" selection-end="8537" vertical-scroll-proportion="0.0" vertical-offset="3311" max-vertical-offset="4890">
               <folding>
                 <element signature="e#50#62#0" expanded="true" />
               </folding>
@@ -128,8 +126,8 @@
         <option value="$PROJECT_DIR$/lib/setup/databases/postgresql_conn.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/get_collector.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/oscheck/OS.py" />
-        <option value="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py" />
+        <option value="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" />
       </list>
     </option>
   </component>
@@ -744,7 +742,11 @@
       <created>1385498903396</created>
       <updated>1385498903396</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="migration some data collect to psutil api.">
+      <created>1385501792086</created>
+      <updated>1385501792086</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -783,7 +785,8 @@
     <MESSAGE value="BugFix Innodb information for mysql 5.5 ou &gt;" />
     <MESSAGE value="BugFIx in MySQL Tuning information" />
     <MESSAGE value="PostgreSQL Support" />
-    <option name="LAST_COMMIT_MESSAGE" value="PostgreSQL Support" />
+    <MESSAGE value="migration some data collect to psutil api." />
+    <option name="LAST_COMMIT_MESSAGE" value="migration some data collect to psutil api." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -904,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="0" selection-start="8551" selection-end="8551" vertical-scroll-proportion="0.0" vertical-offset="3356" max-vertical-offset="4935">
+        <state line="254" column="0" selection-start="8537" selection-end="8537" vertical-scroll-proportion="0.0" vertical-offset="3311" max-vertical-offset="4890">
           <folding>
             <element signature="e#50#62#0" expanded="true" />
           </folding>
@@ -913,7 +916,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="15" selection-start="640" selection-end="640" vertical-scroll-proportion="0.75376886" vertical-offset="0" max-vertical-offset="597">
+        <state line="33" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.8291457" vertical-offset="0" max-vertical-offset="597">
           <folding>
             <element signature="e#56#65#0" expanded="true" />
           </folding>
