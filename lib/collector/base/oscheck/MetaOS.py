@@ -2,6 +2,7 @@
 # Replace by psutil
 import os
 import socket
+import psutil
 
 
 class MetaPosix():
@@ -17,4 +18,16 @@ class MetaPosix():
 
     def get_os_currentPid(self):
         return os.getpid()
- 
+
+    def get_pid_amount(self):
+        return len(psutil.get_pid_list())
+
+    def get_os_pid_byname(self, name):
+        command = 'ps aux |grep ' + name
+        pid = os.popen(command).read()
+        return long(pid)
+
+    def get_total_cpu_usage(self):
+        return psutil.cpu_times_percent()[0]
+
+

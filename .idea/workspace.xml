@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adacdf2-bf08-44bc-b610-a73b4509c366" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py" afterPath="$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" afterPath="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -56,7 +57,7 @@
       <file leaf-file-name="MetaOS.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.15075377" vertical-offset="0" max-vertical-offset="597">
+            <state line="30" column="15" selection-start="640" selection-end="640" vertical-scroll-proportion="0.75376886" vertical-offset="0" max-vertical-offset="597">
               <folding>
                 <element signature="e#56#65#0" expanded="true" />
               </folding>
@@ -67,7 +68,7 @@
       <file leaf-file-name="Linux.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="308" column="10" selection-start="10624" selection-end="10624" vertical-scroll-proportion="-7.7352943" vertical-offset="4357" max-vertical-offset="4920">
+            <state line="257" column="0" selection-start="8551" selection-end="8551" vertical-scroll-proportion="0.0" vertical-offset="3356" max-vertical-offset="4935">
               <folding>
                 <element signature="e#50#62#0" expanded="true" />
               </folding>
@@ -78,7 +79,7 @@
       <file leaf-file-name="OS.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/OS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="58" selection-start="2926" selection-end="2926" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2145">
+            <state line="79" column="67" selection-start="2984" selection-end="3003" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2145">
               <folding />
             </state>
           </provider>
@@ -117,7 +118,6 @@
         <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Tools.py" />
         <option value="$PROJECT_DIR$/lib/common/powertools.py" />
         <option value="$PROJECT_DIR$/lib/collector/Collector.py" />
-        <option value="$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py" />
         <option value="$PROJECT_DIR$/lib/collector/get_net.py" />
         <option value="$PROJECT_DIR$/lib/setup/databases/MySQL_Interface.py" />
         <option value="$PROJECT_DIR$/dpcollector.py" />
@@ -129,6 +129,7 @@
         <option value="$PROJECT_DIR$/lib/collector/base/get_collector.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/oscheck/OS.py" />
         <option value="$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py" />
+        <option value="$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py" />
       </list>
     </option>
   </component>
@@ -739,7 +740,11 @@
       <created>1385498877785</created>
       <updated>1385498877785</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="PostgreSQL Support">
+      <created>1385498903396</created>
+      <updated>1385498903396</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -815,11 +820,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pre-reque/init-start-script">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="440" selection-end="440" vertical-scroll-proportion="0.43399638" vertical-offset="45" max-vertical-offset="735" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/setup/Header.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="29" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.57391304" vertical-offset="0" max-vertical-offset="575" />
@@ -867,22 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/Collector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="19" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="10" selection-start="10624" selection-end="10624" vertical-scroll-proportion="-7.7352943" vertical-offset="4357" max-vertical-offset="4920">
-          <folding>
-            <element signature="e#50#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collector/base/get_collector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="19" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="735">
@@ -897,16 +881,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/Collector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="19" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/psutil-1.1.2-py2.7-linux-i686.egg/psutil/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1015" column="22" selection-start="37513" selection-end="37513" vertical-scroll-proportion="0.559464" vertical-offset="14891" max-vertical-offset="23280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/OS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="58" selection-start="2926" selection-end="2926" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2145">
+        <state line="79" column="67" selection-start="2984" selection-end="3003" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2145">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/Linux.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="0" selection-start="8551" selection-end="8551" vertical-scroll-proportion="0.0" vertical-offset="3356" max-vertical-offset="4935">
+          <folding>
+            <element signature="e#50#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collector/base/oscheck/MetaOS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.15075377" vertical-offset="0" max-vertical-offset="597">
+        <state line="30" column="15" selection-start="640" selection-end="640" vertical-scroll-proportion="0.75376886" vertical-offset="0" max-vertical-offset="597">
           <folding>
             <element signature="e#56#65#0" expanded="true" />
           </folding>

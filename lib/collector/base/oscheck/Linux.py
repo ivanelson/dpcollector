@@ -11,7 +11,6 @@ import subprocess
 import socket
 import os
 import sys
-import time
 
 #import psutil
 from collections import namedtuple
@@ -211,11 +210,6 @@ class Linux():
         return rlist
 
 
-    def get_os_pid_byname(self, name):
-        command = 'ps aux |grep ' + name
-        pid = os.popen(command).read()
-        return long(pid)
-
     def get_hardware_cpuinfo(self):
         command = 'cat /proc/cpuinfo |grep "model name" |uniq'
         cpu_info = os.popen(command).read()
@@ -231,6 +225,8 @@ class Linux():
 
 
     ''' GET CPU % IN PYTON '''
+
+    '''
     TIMEFORMAT = "%m/%d/%y %H:%M:%S"
     INTERVAL = 2
 
@@ -250,10 +246,12 @@ class Linux():
             y[i] -= x[i]
         return y
 
+
     def get_total_cpu_usage(self):
         dt = self.deltaTime(self.INTERVAL)
         cpuPct = 100 - (dt[len(dt) - 1] * 100.00 / sum(dt))
         return str('%.4f' % cpuPct)
+    '''
 
     def get_folder_size(self, folder):
         ''' Return in K '''
