@@ -2,9 +2,6 @@
 # Replace by psutil
 import os
 import socket
-import psutil
-
-psutil.loa
 
 
 class MetaPosix():
